@@ -2,7 +2,7 @@
 
 *A simple and intuitive Ramen rating app .*
 
-## Instructions
+# Instructions
 
 ### Deliverables
 
