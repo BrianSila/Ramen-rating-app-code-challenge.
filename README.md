@@ -4,6 +4,8 @@
 
 ## Instructions
 
+# Deliverables
+
 **1. Display Ramen Images:**
 
 * Create a displayRamens() function.
