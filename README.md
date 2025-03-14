@@ -25,6 +25,12 @@ Initialize App: When a user fills out the form and submits it, add the new ramen
 * Write a main function that initializes your application by invoking:
   * displayRamens()
   * addSubmitListener()
+
+### Advanced Requirements (Optional)
+
+* Display the details for the first ramen automatically on page load without user interaction.
+* Allow users to edit the rating and comments for selected ramen and display updated info dynamically.
+* Implement deletion functionality to remove a ramen from the display.
   
 # Features
 
