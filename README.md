@@ -5,6 +5,7 @@
 ## Instructions
 
 **1. Display Ramen Images:**
+
 * Create a displayRamens() function.
 * Load images from the ramens array using standard JavaScript array methods (e.g., forEach) and append them as <img> elements inside the #ramen-menu div.
   
