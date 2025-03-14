@@ -2,7 +2,10 @@
 
 *A simple and intuitive Ramen rating app .*
 
+## Instructions
 
+**1. Display Ramen Images:**
+  *Create a displayRamens() function.*
 # Features
 
 
