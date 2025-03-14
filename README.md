@@ -1,7 +1,7 @@
-# Week 1 Code_challenge 
+# Ramen-Rating-App. 
 
 
-*A simple and intuitive Ramen .*
+*A simple and intuitive Ramen rating app .*
 
 --
 
@@ -23,10 +23,10 @@ To run the Ramen Rating App locally, follow these steps:
     **cd Week 1 Code_challenge**
 
 3. **Cd into the lab Vs_Code**
-    copy and paste the follpowing command on your terminal:
+    copy and paste the following command on your terminal:
     **Code .**
 
 4. **Access the live server to view the code and the changes made to the code**
-    launch the live server from the opened Vs_Code and enjoy the app and it's features.
+    launch the live server from the opened Vs_Code and enjoy the app and its features.
 
 --
