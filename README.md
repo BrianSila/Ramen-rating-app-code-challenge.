@@ -1,1 +1,32 @@
-# week-1-code_challenge
+# Week 1 Code_challenge 
+
+
+*A simple and intuitive Ramen .*
+
+--
+
+# Description 
+
+--
+# Features
+
+--
+## Installation
+To run the Ramen Rating App locally, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/taskmaster.git
+
+2. **cd Week 1 Code_challenge**
+    do this by copying and pasting the following command on your terminal:
+    **cd Week 1 Code_challenge**
+
+3. **Cd into the lab Vs_Code**
+    copy and paste the follpowing command on your terminal:
+    **Code .**
+
+4. **Access the live server to view the code and the changes made to the code**
+    launch the live server from the opened Vs_Code and enjoy the app and it's features.
+
+--
