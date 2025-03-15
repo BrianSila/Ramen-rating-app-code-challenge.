@@ -32,10 +32,12 @@ Initialize App: When a user fills out the form and submits it, add the new ramen
 * Allow users to edit the rating and comments for selected ramen and display updated info dynamically.
 * Implement deletion functionality to remove a ramen from the display.
   
-# Features
-
-
 # Getting Started
-If you haven't already, fork and clone this lab into your local environment. Remember to fork a copy into your GitHub account first, then clone from that copy. Navigate into its directory in the terminal, then run code . to open the files in Visual Studio Code.
+If you haven't already, fork and clone this code challenge into your local environment. Remember to fork a copy into your GitHub account first, then clone from that copy. Navigate into its directory in the terminal, then run code . to open the files in Visual Studio Code.
 
-Next, run npm install to install the dependencies then run the test suite with the npm test command.
+Clone the repository using the codebelow:
+```bash
+git clone https://github.com/yourusername/ProjectX.g
+
+
+# Features
