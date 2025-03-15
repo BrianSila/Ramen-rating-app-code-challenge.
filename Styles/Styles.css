@@ -1,0 +1,42 @@
+#sub-header{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    border: 2px solid black;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+#ramen-menu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: black;
+    border-bottom: 2px solid wheat;
+}
+
+#ramen-menu img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: transform 0.2s;
+}
+
+#ramen-menu img:hover{
+    transform: scale(1.1);
+}
