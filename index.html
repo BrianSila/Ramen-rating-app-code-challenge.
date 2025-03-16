@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Styles/Styles.css"></link>
-    <script src="index.js"></script>
+    <title>Ramen Rating App</title>
+    <link rel="stylesheet" href="./Styles/Styles.css">
 </head>
 <body>
-    <h3 class="Sub-header">Ramen Rating </h3>
-    <div id="Ramen-menu"> </div>
-    <form id="edit-ramen">
-        <h4>Update the Featured Ramen</h4>
-        <label for="edit-rating">Rating: </label>
-        <input type="number" name="edit-rating" id="edit-rating" />
-        <label for="edit-comment">Comment: </label>
-        <textarea name = "edit-comment" id = "edit-comment"></textarea>
-        <input type="submit" value="Update" />
+    <h1>Ramen Rating App</h1>
+    <div id="ramen-menu"></div>
+    <div id="ramen-detail"></div>
+    
+    <form id="new-ramen-form">
+        <h4>Add New Ramen </h4>
+        <input type="text" id="ramen-name" placeholder="Ramen Name" required>
+        <input type="text" id="restaurant-name" placeholder="Restaurant Name" required>
+        <input type="text" id="image-url" placeholder="Image URL" required>
+        <input type="number" id="rating" placeholder="Rating (1-10)" min="1" max="10" required>
+        <textarea id="comment" placeholder="Comment"></textarea>
+        <button type="submit">Add Ramen</button>
     </form>
-    
-    
+
+    <script src="index.js"></script>
 </body>
+<footer class="footer">
+    <p class="copywright"> Brian Baraka | all rights reserved </p>
+</footer>
 </html>

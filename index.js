@@ -1,4 +1,3 @@
-//Array of ramen objects
 const ramens = [
     { 
         id: 1,
@@ -42,7 +41,7 @@ const ramens = [
     },
 ];
 
-//Displays all ramens in the ramen menu
+//function that displays all ramens in the ramen menu
 function displayRamens() {
     const ramenMenu = document.getElementById('ramen-menu');
     ramens.forEach(ramen => {
@@ -54,7 +53,7 @@ function displayRamens() {
     });
 }
 
-//Displays the ramen details when an image is clicked
+//function that displays the ramen details when an image is clicked
 function handleClick(ramen) {
     const ramenDetail = document.getElementById('ramen-detail');
     ramenDetail.innerHTML = `
@@ -65,7 +64,7 @@ function handleClick(ramen) {
     `;
 }
 
-//Adds a new ramen to the ramen menu
+//function that adds a new ramen to the ramen menu
 function addSubmitListener() {
     const form = document.getElementById('new-ramen');
     form.addEventListener('submit', (event) => {
@@ -91,18 +90,11 @@ function addSubmitListener() {
     });
 }
 
-//Main function
+//function that calls all other functions to intitialize the page 
 function main() {
     displayRamens();
     addSubmitListener();
+    handleClick(ramens[0]); 
 }
 
-//Runs the main function when the DOM is loaded
-function main() {
-    displayRamens();
-    addSubmitListener();
-}
-
-//Run main function when the DOM is loaded
 document.addEventListener('DOMContentLoaded', main);
-

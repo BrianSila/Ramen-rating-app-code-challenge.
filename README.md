@@ -39,8 +39,19 @@ Clone the repository using the codebelow:
 ```bash
 git clone https://github.com/BrianSila/Ramen-rating-app-code-challenge.
 ```
+The project has various comments that indicate what the code does ot a particular stage in order to achieve the overall objective of the app.
 
 # Features of the app
+
+* Allows one to add a ramen into the rating collection.
+* Displays images of various ramens once clicked or interacted with by the user
+
+# Technologies Used
+
+* HTML
+* CSS
+* Javascript
+
 
 ## Created By
 
